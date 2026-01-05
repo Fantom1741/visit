@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Артём Тарасенков | Game Dev & SWE</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <canvas id="canvas-container"></canvas>
+
+    <div class="container">
+        <header>
+            <h1 class="hero-title">Артём<br>Тарасенков</h1>
+            <div class="hero-subtitle">Game Developer & Software Engineer</div>
+            <p class="hero-description">
+                Создаю миры, логику и архитектуру. От Ren'Py и Unity до симуляций и софта.
+            </p>
+            <div class="scroll-hint">
+                <span class="scramble-text" data-text="/* --- scroll_down_for_data --- */">/* --- scroll_down_for_data --- */</span>
+            </div>
+        </header>
+
+        <section id="about" class="visible">
+            <div class="quote-box">
+                "Нужный человек не в том месте может перевернуть мир. Осталось лишь найти «не то» место."
+            </div>
+            <h2>Обо мне</h2>
+            <p class="about-text">
+                Я разработчик с фокусом на игровую индустрию и софт. Мой путь начался с моддинга Garry's Mod на GLua. Сейчас я создаю игровые механики на Python, Unity и Ren'Py с замахом на полноценные игры, а также разрабатываю десктопные приложения. Интересуюсь архитектурой систем, паттернами проектирования, чистым кодом и созданием комплексных симуляций.
+            </p>
+
+            <div class="about-extra" style="margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                <div class="extra-item" style="background: var(--glass); padding: 20px; border-left: 2px solid var(--primary); border-radius: 5px;">
+                    <h4 style="color: var(--primary); margin-bottom: 10px;">Философия</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Придерживаюсь принципов SOLID и большей части концепции "Чистого Кода" дядюшки Боба (<strong>«Чистый код: создание, анализ и рефакторинг», Роберт Мартин</strong>). Верю, что архитектура кода важнее визуальных эффектов.</p>
+                </div>
+                <div class="extra-item" style="background: var(--glass); padding: 20px; border-left: 2px solid var(--primary); border-radius: 5px;">
+                    <h4 style="color: var(--primary); margin-bottom: 10px;">Опыт моддинга</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Более 3 лет работы с движком Source. Были попытки создать собственный мод на Half-Life 2, но всё увязало в идеях и отсутствии единой концепции. Однако этот опыт помог мне начать разбираться в legacy-коде.</p>
+                </div>
+            </div>
+
+            <div class="about-extra" style="margin-top: 40px; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 20px;">
+                <div class="extra-item" style="background: var(--glass); padding: 20px; border-left: 2px solid var(--primary); border-radius: 5px;">
+                    <h4 style="color: var(--primary); margin-bottom: 10px;">Планы на будущее</h4>
+                    <p style="font-size: 0.9rem; color: var(--text-muted);">Есть большое желание создать собственный FPS шутер с механиками паркура, кастомизации оружия. Но для этого у меня слишком мало опыта, и я чувствую, что не смогу один завершить этот проект.<br><br>Хочу начать изучать язык программирования Java (6 января 2026 года, посмотрим как быстро я от желания перейду к действиям).</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <h2>Технологический стек</h2>
+            
+            <h3 style="font-size: 1.2rem; margin: 20px 0 10px; opacity: 0.8;">Языки программирования</h3>
+            <div class="skills-grid">
+                <div class="skill-tag">C# (Unity / .NET)</div>
+                <div class="skill-tag">Python</div>
+                <div class="skill-tag">GLua</div>
+                <div class="skill-tag">SQL</div>
+                <div class="skill-tag">Ren'Py</div>
+                <div class="skill-tag">HTML/CSS/JS</div>
+                <div class="skill-tag">VBA</div>
+                <div class="skill-tag">1C</div>
+            </div>
+
+            <h3 style="font-size: 1.2rem; margin: 30px 0 10px; opacity: 0.8;">Инструменты и Софт</h3>
+            <div class="skills-grid">
+                <div class="skill-tag tool">Hammer Editor</div>
+                <div class="skill-tag tool">Visual Studio</div>
+                <div class="skill-tag tool">VS Code</div>
+                <div class="skill-tag tool">GitHub</div>
+                <div class="skill-tag tool">Blender</div>
+                <div class="skill-tag tool">Photoshop</div>
+                <div class="skill-tag tool">Paint.net</div>
+                <div class="skill-tag tool">Dr. Explain</div>
+                <div class="skill-tag tool">Sony Vegas</div>
+            </div>
+
+            <h3 style="font-size: 1.2rem; margin: 30px 0 10px; opacity: 0.8;">Движки и Фреймворки</h3>
+            <div class="skills-grid">
+                <div class="skill-tag tool">Unity</div>
+                <div class="skill-tag tool">Ren'Py</div>
+                <div class="skill-tag tool">PyGame</div>
+                <div class="skill-tag tool">RPG Maker</div>
+            </div>
+
+            <h3 style="font-size: 1.2rem; margin: 30px 0 10px; opacity: 0.8;">AI-Инструменты</h3>
+            <div class="skills-grid">
+                <div class="skill-tag tool">Gemini</div>
+                <div class="skill-tag tool">ChatGPT</div>
+                <div class="skill-tag tool">Deep Seek</div>
+                <div class="skill-tag tool">Qwen</div>
+            </div>
+        </section>
+
+        <section id="projects">
+            <h2>Мои проекты</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3 class="project-title">Manus Age</h3>
+                    <p class="project-desc">Карточная игра основанная на механике запоминания (Memory Game), позволяющая создавать собственные колоды карт с настройкой размера игрового поля и времени игры.</p>
+                    <div class="project-tech">[Unity] [C#] [2D]</div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Half-Life 2: Freeman Paradox</h3>
+                    <p class="project-desc">Визуальная новелла во вселенной Half-Life. Глубокая переработка проекта "Half-Life Multiverse".</p>
+                    <div class="project-tech">[Ren'Py] [Python] [Narrative]</div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Garry's Mod Workshop</h3>
+                    <p class="project-desc">Портирование и создание карт, создание оружия на GLua, настройка серверов DarkRP и MilitaryRP, перенастройка оружия и модификаций.</p>
+                    <div class="project-tech">[Garry's Mod] [GLua] [Mapping]</div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">FileTagger</h3>
+                    <p class="project-desc">Файловый менеджер с системой тегов и локальной SQL базой данных.</p>
+                    <div class="project-tech">[C#] [WinForms] [SQL]</div>
+                </div>
+
+                 <div class="project-card">
+                    <h3 class="project-title">Freezegun</h3>
+                    <p class="project-desc">Головоломка на Unity. Механика "заморозки" предметов в пространстве для прохождения уровней.</p>
+                    <div class="project-tech">[Unity] [C#] [Puzzle]</div>
+                </div>
+
+                <div class="project-card">
+                    <h3 class="project-title">Project Alef</h3>
+                    <p class="project-desc">Космическая песочница с физикой. Симулятор орбит планет и звёзд в невесомости.</p>
+                    <div class="project-tech">[Python] [Tkinter] [Physics]</div>
+                </div>
+                <div id="secret-project" class="project-card" style="display: none; border-color: #ff0000; box-shadow: 0 0 20px rgba(255,0,0,0.2);">
+                    <h3 class="project-title" style="color: #ff0000;">Legacy Projects</h3>
+                    <p class="project-desc">Секретные наработки. Доступ получен через консоль администратора.</p>
+                    <div class="project-tech">// TOP_SECRET //</div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contacts">
+            <h2>Связь</h2>
+            <div class="contacts-list">
+                <a href="mailto:email@example.com" class="contact-btn">Email</a>
+                <a href="#" class="contact-btn">Telegram</a>
+                <a href="#" class="contact-btn">GitHub</a>
+                <a href="#" class="contact-btn">Itch.io</a>
+                <a href="#" class="contact-btn">VK</a>
+            </div>
+            <p class="footer-copy">
+                <span class="scramble-text" data-text="// SYSTEM.READY >> // © 2024 Artem Tarasenkov">// SYSTEM.READY >> // © 2024 Artem Tarasenkov</span>
+            </p>
+        </section>
+    </div>
+
+    <div id="project-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <div class="modal-body">
+                <h2 id="modal-title">Название проекта</h2>
+                <div class="modal-grid">
+                    <div class="modal-image-placeholder">
+                        <img id="modal-img" src="" alt="Project Screenshot" style="display:none;">
+                        <div id="img-fallback">Скриншот скоро появится...</div>
+                    </div>
+                    <div class="modal-text">
+                        <p id="modal-full-desc">Полное описание проекта...</p>
+                        <div class="modal-links">
+                            <a href="#" id="modal-link-git" class="contact-btn">Смотреть на GitHub</a>
+                            <a href="#" id="modal-link-itch" class="contact-btn">Смотреть на Itch.io</a>
+                            <a href="#" id="modal-link-steam" class="contact-btn">Смотреть в Steam</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="developer-console" class="console-hidden">
+        <div class="console-header">Console</div>
+        <div class="console-history" id="console-history">
+            <div class="console-line">GMaNOS. Version #.1.#.0 alpha-beta-test-dev buid-demo</div>
+            <div class="console-line">Type 'help' or 'system' for available commands.</div>
+        </div>
+        <div class="console-input-area">
+            <span class="console-prompt">]</span>
+            <input type="text" id="console-input" autofocus autocomplete="off">
+        </div>
+    </div>
+
+    <button id="console-mobile-toggle" class="mobile-only-btn">
+        <span>>_</span>
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
